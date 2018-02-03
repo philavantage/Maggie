@@ -1,0 +1,21 @@
+
+<html>
+<head><title>Home Page</title></head>
+<body>
+{% load static %}
+<img src="{% static "images/maggie-text.png" %}" height="75" width="200" align="left">
+
+<img src="{% static "images/bot-logo.png" %}" height="100" width ="100" style="float:right">
+
+<div style="text-align: center;"><img src="{% static "images/maps-underground-tunnels-unexplained-booms-and-mysterious-hums.jpg" %}" height="350" width="800" style="position:fixed; right:350px; bottom:250px; width:750px; height:350px; border:none;"></div>
+
+<div style="text-align: center;"><img src="{% static "images/twitter_widget-56a9fe0e3df78cf772abf302.jpg" %}" height="350" width="750" style="position:fixed; right:330px; bottom:60px; width:375px; height:175px; border:none;"></div>
+
+<a href="{% url 'top' %}">
+<div style="text-align: center;"><img src="{% static "images/currently.png" %}" height="350" width="750" style="position:fixed; right:900px; bottom:60px; width:200px; height:175px; border:none;"></div></a>
+
+<a href="https://www.w3schools.com">
+<div style="text-align: center;"><img src="{% static "images/top.png" %}" height="350" width="750" style="position:fixed; right:700px; bottom:60px; width:200px; height:175px; border:none;"></div></a>
+
+</body>
+</html>
